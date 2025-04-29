@@ -139,7 +139,7 @@ $username = htmlspecialchars($_SESSION['username']);
         <h1>Employee Dashboard</h1>
         <div class="user-info">Logged in as: <strong><?= $username ?></strong></div>
     </div>
-    <a href="logout.php" class="logout-btn">Logout</a>
+    <a href="admin.php" class="logout-btn">Logout</a>
 </header>
 
 <div class="container">
