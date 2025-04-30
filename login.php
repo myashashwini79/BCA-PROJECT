@@ -47,7 +47,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 body {
     height: 100vh;
-    background: url('zam01.jpeg') no-repeat center center fixed;
+    background: url('zam.avif') no-repeat center center fixed;
     background-size: cover;
     font-family: 'Poppins', sans-serif;
     display: flex;
@@ -117,7 +117,7 @@ button {
     width: 100%;
     padding: 14px;
     margin-top: 18px;
-    background: linear-gradient(to right, #3a86ff, #8338ec);
+    background: linear-gradient(to right, grey,black);
     border: none;
     border-radius: 10px;
     color: #ffffff;
@@ -128,7 +128,7 @@ button {
 }
 
 button:hover {
-    background: linear-gradient(to right, #2c6ff7, #6f2edb);
+    background: linear-gradient(to right,grey);
 }
 
 .error {
